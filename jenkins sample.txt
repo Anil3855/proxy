@@ -1,0 +1,11 @@
+jenkins ci cd pipeline
+
+Clone -----> Compile----->Build------>Scan -------> UnitTest------->Create Artificate------->
+push to Nexus----->Deploy in to the Destination   like :
+                                                                                         aws
+                                                                                         kubernetes
+                                                                                         vims
+
+-------> Runs the Test cases----->sucess
+
+after complete this stage open the application in the borrowser

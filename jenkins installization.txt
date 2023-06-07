@@ -1,0 +1,34 @@
+Lunix installizations 
+first you can select AWS regions ex: Asia pacific mumbai
+next instances---> launch instances----> select application and os images "ubuntu"
+----> t2 micro (free tier eligible)
+----> create key pair what ever you want give the name ex:aws1
+----> then go to network setting click on edit here you can doing to change one 
+activity security group rule ---> Type info ssh to alltraffic
+----> configure storage 8gb and dont cross 30 gb 
+---->summary section you can give number of instances 3*8=24 gb
+Then completed above all steps click on instances  ----> view all instances
+then you can give meaning full names for ex: JenkinsServer QAServer and ProdServer
+
+how to connect this servers..?
+
+lunix servers has a commandprompt--->commandprompt is call terminal--->every lunix 
+will have command prompt though where to excaute commands 
+
+To connect that to where install ---> Go To Google Git download---->download-git scm
+download windows version next install app finish the installization formalities 
+
+Application installed Git Bash is commandprompt insterface between aws cloud instance
+and windows mechane 
+-----> apply cd downloads command in git bash
+-----> then connect first jenkins server and take ssh client id example copy
+-----> paste git bash then press enter
+-----> yes
+-----> exit logout connection
+
+
+
+
+
+
+      
